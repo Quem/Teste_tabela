@@ -1,0 +1,47 @@
+table {
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+
+th {
+    background-color: #3F5196;
+    color: white;
+}
+
+.selected{
+	background-color: #B0C4DE
+}
+
+#notification {
+    position:fixed;
+    top:0px;
+    width:40%;
+    z-index:105;
+    text-align:center;
+    font-weight:normal;
+    font-size:14px;
+    font-weight:bold;
+    color:white;
+    background-color:#4CAF50;
+    margin-left:30%;
+}
+
+#notification span.dismiss {
+    border:2px solid #FFF;
+    padding:0 5px;
+    cursor:pointer;
+    float:right;
+    margin-right:10px;
+}
+
+#notification a {
+    color:white;
+    text-decoration:none;
+    font-weight:bold
+}
